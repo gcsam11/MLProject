@@ -1,0 +1,14 @@
+# To do
+- Implementar wrapper-based methods para feature selection (e.g. RFE; Filter já estão, são a anaálise manual da correlation, mutual info e feature importance)
+- Testar mais das features avançadas criadas no final do data_prep
+- Testar features de outras tabelas (Avaliar: playoff performance com base nos dados post, usar players e coaches de forma benéfica, ou seja não ser só agregar stats de players, porque a soma apenas é equivalente as stats no teams.csv)
+- Testar trends temporais (É preciso fazer com cuidado, porque o dataset é muito desequilibrado em termos dos dados por ano de cada equipa. Á equipas com info dos 10 anos, e outras apenas com 2)
+
+---- Após melhorar XGBoost o máximo possível ----
+
+- Implementar outros modelos de classificação conforme o indicado na tabela de avaliação
+- Implementar modelos de regressão (É preciso vários cuidados extra aqui. Não podemos usar uma variável binária de classificação, é preciso ter em conta sensibilidade para outliers e escalas diferentes, o que não acontece com XGBoost)
+- Adicionar plots 3D e outras coisas extra que ainda não estejam implementadas, deforma a tentar maximizar a tabela de avaliação
+
+# Notas
+Ao implementar features de outras tabelas no data_prep, tem de se ter o cuidado de o fazer antes do SMOTE, deforma a que apenas valores reais sejam extrapolados.
