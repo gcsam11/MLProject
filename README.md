@@ -1,5 +1,5 @@
-# ML Project - T08GXX
+# ML Project - T08G04
 
-## To do:
-    - Team playoff achievement percentage last 10 years
-    - Team quarters, semis, final achievement and champions percentage last 10 years
+- David Cordeiro (202108820)
+- Diogo Viana (202108803)
+- Gonçalo Martins (202108707)
