@@ -8,3 +8,4 @@ optuna
 numpy
 xgboost
 scipy
+plotly
